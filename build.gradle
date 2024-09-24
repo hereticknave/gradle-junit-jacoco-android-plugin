@@ -10,14 +10,14 @@ buildscript {
 
   dependencies {
     classpath "com.gradle.publish:plugin-publish-plugin:1.2.0"
-    classpath 'com.hereticknave:gradle-maven-publish-plugin:0.1.0'
+    classpath 'com.vanniktech:gradle-maven-publish-plugin:0.29.0'
   }
 }
 
 apply plugin: 'groovy'
 apply plugin: 'java-library'
 apply plugin: 'java-gradle-plugin'
-apply plugin: "com.hereticknave.maven.publish"
+apply plugin: "com.vanniktech.maven.publish"
 apply plugin: 'com.gradle.plugin-publish'
 
 
