@@ -1,4 +1,4 @@
-package com.vanniktech.android.junit.jacoco
+package com.hereticknave.junit.jacoco.android
 
 class ReportConfig {
   boolean enabled

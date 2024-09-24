@@ -1,4 +1,4 @@
-package com.vanniktech.android.junit.jacoco
+package com.hereticknave.junit.jacoco.android
 
 import com.android.build.gradle.api.BaseVariant
 import org.gradle.api.Plugin
@@ -20,7 +20,7 @@ class GenerationPlugin implements Plugin<Project> {
             rootProject.subprojects { subProject ->
                 afterEvaluate {
                     final def extension = rootProject.junitJacoco
-                    aaddJacoco(subProject, extension, mergedReportTask)
+                    addJacoco(subProject, extension, mergedReportTask)
                 }
             }
         } else {

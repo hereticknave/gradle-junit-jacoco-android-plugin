@@ -1,4 +1,4 @@
-package com.vanniktech.android.junit.jacoco
+package com.hereticknave.junit.jacoco.android
 
 import com.android.build.api.variant.ApplicationVariant
 import com.android.build.gradle.AppExtension

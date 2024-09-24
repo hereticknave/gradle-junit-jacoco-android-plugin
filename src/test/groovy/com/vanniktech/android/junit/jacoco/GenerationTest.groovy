@@ -1,4 +1,4 @@
-package com.vanniktech.android.junit.jacoco
+package com.hereticknave.junit.jacoco.android
 
 import org.gradle.api.Project
 import org.gradle.api.Task
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test
 
 import java.nio.file.Paths
 
-import static com.vanniktech.android.junit.jacoco.ProjectHelper.ProjectType.*
+import static com.hereticknave.junit.jacoco.android.ProjectHelper.ProjectType.*
 
 class GenerationTest {
     def LANGUAGES = ["clojure", "groovy", "java", "kotlin", "scala"]

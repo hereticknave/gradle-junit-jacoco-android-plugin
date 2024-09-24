@@ -1,4 +1,4 @@
-package com.vanniktech.android.junit.jacoco
+package com.hereticknave.junit.jacoco.android
 
 import org.gradle.testfixtures.ProjectBuilder
 import spock.lang.Specification
@@ -8,7 +8,7 @@ final class GenerationPluginSpec extends Specification {
   final static ANDROID_PLUGINS = ["com.android.application", "com.android.library", "com.android.test", "com.android.dynamic-feature"]
   final static COMPILE_SDK_VERSION = 34
   final static BUILD_TOOLS_VERSION = "34.0.0"
-  final static APPLICATION_ID = "com.vanniktech"
+  final static APPLICATION_ID = "com.hereticknave"
 
   def project
 
